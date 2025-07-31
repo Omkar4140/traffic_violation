@@ -1,26 +1,14 @@
-# Core dependencies for YOLOv8 traffic detection
-ultralytics
-opencv-python
-torch
-torchvision
-numpy
-Pillow
+# Core dependencies for YOLOv8 traffic detection (Streamlit Cloud optimized)
+ultralytics>=8.0.0
+opencv-python-headless==4.8.1.78
+torch>=2.0.0
+torchvision>=0.15.0
+numpy>=1.21.0
+Pillow>=9.0.0
 
-# For video processing
-ffmpeg-python
+# Streamlit dependencies
+streamlit>=1.28.0
+pandas>=1.5.0
 
-# For data handling
-pandas
-
-# Optional: for CUDA support (uncomment if using GPU)
-#torch>=2.0.0+cu118
-#torchvision>=0.15.0+cu118
-
-# For Streamlit app (Phase 2)
-streamlit
-streamlit-option-menu
-
-# For logging and utilities
-tqdm
-matplotlib
-seaborn
+# Utilities
+tqdm>=4.64.0
