@@ -1,9 +1,9 @@
 # Core dependencies for YOLOv8 traffic detection (Streamlit Cloud optimized)
+numpy>=1.21.0,<2.0.0
 ultralytics>=8.0.0
 opencv-python-headless==4.8.1.78
 torch>=2.0.0
 torchvision>=0.15.0
-numpy>=1.21.0
 Pillow>=9.0.0
 
 # Streamlit dependencies
